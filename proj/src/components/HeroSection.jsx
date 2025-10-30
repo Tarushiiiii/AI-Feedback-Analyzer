@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroSection = () => {
   return (
     <section className="bg-[#0B0E17] text-white px-8 md:px-20 py-16 flex flex-col md:flex-row items-center justify-between">
