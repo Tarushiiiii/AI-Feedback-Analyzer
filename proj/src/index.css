@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Custom global styles */
+html,
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Example custom utility */
+@layer utilities {
+  .spin-slow {
+    animation: spin 3s linear infinite;
+  }
+}
